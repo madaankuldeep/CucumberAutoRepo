@@ -24,6 +24,7 @@ public class backgroundSD {
 		driver.get("https://www.facebook.com/");
 		String appTitle = driver.getTitle();
 		System.out.println("Application title is :: "+appTitle);
+		System.out.println("Application title PUSH ::");
 		
 	}	
 	@When("^User enter \"([^\"]*)\" first name$")
