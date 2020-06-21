@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 			glue={"com/basic/multiSD"},
 			plugin={"pretty","html:target/cucumber-htmlreport",
 					"json:target/cucumber-report7.json",
-					//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport7.html"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport7.html"
 			}
 		
 		)

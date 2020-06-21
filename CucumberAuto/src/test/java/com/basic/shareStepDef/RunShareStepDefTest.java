@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 			glue={"com/basic/shareStepDef"},
 			plugin={"pretty","html:target/cucumber-htmlreport",
 					"json:target/cucumber-report9.json",
-					//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport9.html"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport9.html"
 			}
 		
 		)

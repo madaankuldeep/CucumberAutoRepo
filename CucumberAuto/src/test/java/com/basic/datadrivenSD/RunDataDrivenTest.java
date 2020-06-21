@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 			glue={"com/basic/datadrivenSD"},
 			plugin={"pretty","html:target/cucumber-htmlreport",
 					"json:target/cucumber-report2.json",
-					//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport2.html"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport2.html"
 			}
 		
 		)

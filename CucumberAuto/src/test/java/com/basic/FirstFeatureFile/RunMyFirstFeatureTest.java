@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 			glue={"com/basic/FirstFeatureFile"},
 			plugin={"pretty","html:target/cucumber-htmlreport",
 					"json:target/cucumber-report4.json",
-					//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport4.html"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport4.html"
 			}
 		
 		)

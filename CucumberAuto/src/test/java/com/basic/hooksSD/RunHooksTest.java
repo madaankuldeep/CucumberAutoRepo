@@ -14,7 +14,7 @@ import cucumber.api.junit.Cucumber;
 			glue={"com/basic/hooksSD"},
 			plugin={"pretty","html:target/cucumber-htmlreport",
 					"json:target/cucumber-report5.json",
-					//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport5.html"
+					"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:target/extentreport5.html"
 			}
 		
 		)
